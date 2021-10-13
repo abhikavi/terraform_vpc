@@ -12,6 +12,6 @@ backend "remote" {
   organization = "Mouritech"
   workspaces {
     name = "github-actions-demo"
+    }
   }
-}
 }
