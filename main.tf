@@ -6,7 +6,7 @@ terraform {
     }
   }
 
-# Provider Block
+
 
   backend "remote" {
     organization = "Mouritech"
