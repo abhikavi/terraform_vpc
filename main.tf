@@ -8,10 +8,10 @@ terraform {
 
 # Provider Block
 
-backend "remote" {
-  organization = "Mouritech"
-  workspaces {
-    name = "github-actions-demo"
+  backend "remote" {
+    organization = "Mouritech"
+    workspaces {
+      name = "github-actions-demo"
     }
   }
 }
